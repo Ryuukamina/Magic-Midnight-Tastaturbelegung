@@ -3,7 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<video playsinline autoplay muted loop poster="https://wiki.selfhtml.org/images/c/c4/Ducks.jpg" id="bgvid">
+  <source src="" type="video/webm">
+  <source src="https://mylivewallpapers.com/wp-content/uploads/Games/PREVIEW-Urban-Street-Burnout.mp4" type="video/mp4">
+</video>
 <style>
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
     body {
         font-family: Arial, sans-serif;
         background: #1b1b1b;
