@@ -164,7 +164,7 @@
 }
 
 .key.active.police {
-    background: linear-gradient(135deg, rgb(8, 106, 197) 0%,rgb(8, 43, 197) 40%, #b90532 60%,#b90532 100%);
+    background: linear-gradient(to right, #b90532 0%,#b90532 40%, rgb(8, 43, 197) 60%,rgb(8, 106, 197) 100%);
             border-color: #fff;
             box-shadow:
                 0 6px 20px rgba(92, 10, 31, 0.6),
@@ -172,6 +172,39 @@
                 inset 0 2px 4px rgba(0,0,0,0.3);
             text-shadow: 0 1px 3px rgba(0,0,0,0.5);
             font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+}
+
+.key.active.police:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.key.active.walking {
+    background: linear-gradient(to right, #16222A 0%, #3A6073 51%, #16222A 100%);
+            border-color: #fff;
+            box-shadow:
+                0 6px 20px rgba(92, 10, 31, 0.6),
+                0 0 25px rgba(92, 10, 31, 0.4),
+                inset 0 2px 4px rgba(0,0,0,0.3);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+}
+
+.key.active.walking:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 
 .key.tab.colored { 
